@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      grid-template-columns: repeat(3,1fr);
+    }
+  }
+  /* Base styles for mobile devices */
+body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
